@@ -1,9 +1,11 @@
 contents:
   repositories:
-    - http://dl-cdn.alpinelinux.org/alpine/edge/main
+    - https://dl-cdn.alpinelinux.org/alpine/edge/main
+    - https://dl-cdn.alpinelinux.org/alpine/edge/community
   packages:
-    - ca-certificates-bundle
-    - alpine-baselayout-data
+    - git
+    - git-lfs
+    - openssh-client
 
 accounts:
   groups:
