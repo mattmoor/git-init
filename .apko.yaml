@@ -3,6 +3,8 @@ contents:
     - https://dl-cdn.alpinelinux.org/alpine/edge/main
     - https://dl-cdn.alpinelinux.org/alpine/edge/community
   packages:
+    - alpine-baselayout-data
+    - ca-certificates-bundle
     - git
     - git-lfs
     - openssh-client
